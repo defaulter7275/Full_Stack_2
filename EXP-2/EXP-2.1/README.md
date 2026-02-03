@@ -1,3 +1,29 @@
+---
+
+## Experiment 2.1: Designing UI Using Bootstrap Components
+
+### Aim
+To design a responsive user interface using a component library (Bootstrap) in a Single Page Application.
+
+### Software Requirements
+- Node.js
+- React
+- Bootstrap
+- Web Browser
+
+### Theory
+Component libraries provide pre-built, reusable UI components that help developers build consistent and responsive user interfaces quickly. Bootstrap is a popular CSS-based component library offering ready-made components like buttons, cards, forms, and navigation bars.
+
+### Procedure
+1. Create a React application.
+2. Install Bootstrap using npm.
+3. Import Bootstrap CSS into the project.
+4. Design UI using Bootstrap components such as buttons, cards, and forms.
+5. Run and observe the application.
+
+### Output
+<img src="https://github.com/BaivhavKummar/FULLSTACK-2/blob/main/EXP-2/assets2/Screenshot%202026-01-27%20101424.png">
+---
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -11,6 +37,3 @@ Currently, two official plugins are available:
 
 The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

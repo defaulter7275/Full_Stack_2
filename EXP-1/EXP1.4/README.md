@@ -1,3 +1,24 @@
+---
+
+## Experiment 1.4: Simple Form SPA
+
+### Aim
+To build a basic form SPA using React.
+
+### Procedure
+1. Create form fields (e.g., Name, Email, Message).
+2. Store input values using component state as they are typed.
+3. Implement a submit handler to process the form data.
+4. Display the submitted data below the form.
+
+### Output
+ <img src="https://github.com/BaivhavKummar/FULLSTACK-2/blob/main/EXP-1/assets1/Screenshot%202026-01-27%20094430.png" >
+ <img src="https://github.com/BaivhavKummar/FULLSTACK-2/blob/main/EXP-1/assets1/Screenshot%202026-01-27%20094739.png" >
+ <img src="https://github.com/BaivhavKummar/FULLSTACK-2/blob/main/EXP-1/assets1/Screenshot%202026-01-27%20094818.png" >
+ <img src="https://github.com/BaivhavKummar/FULLSTACK-2/blob/main/EXP-1/assets1/Screenshot%202026-01-27%20094834.png" >
+
+---
+ 
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -10,7 +31,3 @@ Currently, two official plugins are available:
 ## React Compiler
 
 The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

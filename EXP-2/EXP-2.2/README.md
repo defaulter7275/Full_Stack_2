@@ -1,3 +1,20 @@
+---
+
+## Experiment 2.2: Card-Based Layout Using Bootstrap
+
+### Aim
+To create a card-based UI layout using Bootstrap components. This experiment also features modern glassmorphism aesthetics.
+
+### Procedure
+1. Import Bootstrap CSS.
+2. Use Bootstrap card and grid system to arrange content.
+3. Display multiple cards dynamically.
+4. Apply custom CSS for glassmorphism effects.
+
+### Output
+ <img src="https://github.com/BaivhavKummar/FULLSTACK-2/blob/main/EXP-2/assets2/Screenshot%202026-01-27%20103404.png">
+---
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -10,7 +27,3 @@ Currently, two official plugins are available:
 ## React Compiler
 
 The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

@@ -1,3 +1,19 @@
+---
+
+## Experiment 1.3: Theme Toggle SPA
+
+### Aim
+To create a SPA that switches between light and dark mode.
+
+### Procedure
+1. Use state to track the current theme (e.g., 'light' or 'dark').
+2. Implement a toggle switch to change the theme.
+3. Dynamically apply styles based on the current theme.
+
+### Output
+ <img src="https://github.com/BaivhavKummar/FULLSTACK-2/blob/main/EXP-1/assets1/Screenshot%202026-01-27%20094416.png" >
+
+---
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -10,7 +26,3 @@ Currently, two official plugins are available:
 ## React Compiler
 
 The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

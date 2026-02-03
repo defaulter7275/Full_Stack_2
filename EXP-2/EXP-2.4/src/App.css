@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #0f172a;
+}
+
+.nav-page-wrapper {
+  background: 
+    radial-gradient(circle at 100% 0%, rgba(56, 189, 248, 0.15) 0%, transparent 40%),
+    radial-gradient(circle at 0% 100%, rgba(139, 92, 246, 0.15) 0%, transparent 40%),
+    url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=2000');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.glass-nav {
+  background: rgba(15, 23, 42, 0.7) !important;
+  backdrop-filter: blur(15px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 1.2rem 0;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.7) !important;
+  transition: all 0.3s;
+  padding: 0.5rem 1.2rem !important;
+}
+
+.nav-link:hover, .nav-link.active {
+  color: #38bdf8 !important;
+  transform: translateY(-2px);
+}
+
+.dropdown-menu {
+  background: rgba(30, 41, 59, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+}
+
+.dropdown-item {
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.dropdown-item:hover {
+  background: #38bdf8;
+  color: #000;
+}
+
+.hero-content {
+  flex: 1;
+  padding-top: 100px;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 40px;
+  max-width: 800px;
+}
+
+.fw-black {
+  font-weight: 900;
+  letter-spacing: -3px;
+}
+
+.animate-in {
+  animation: slideUp 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.footer-blur {
+  background: rgba(15, 23, 42, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+/* Mobile Adjustments */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background: #1e293b;
+    margin-top: 15px;
+    padding: 25px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
