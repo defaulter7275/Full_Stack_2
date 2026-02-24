@@ -23,13 +23,13 @@ const Profile = () => (
     <h2 className="fw-bold mb-4">My Profile</h2>
     <ul className="list-group list-group-flush bg-transparent">
       <li className="list-group-item bg-transparent px-0 d-flex justify-content-between">
-        <span className="fw-bold">Full Name</span> <span className="text-muted">Baivhav Kummar</span>
+        <span className="fw-bold">Full Name</span> <span className="text-muted">SATYAM GUPTA</span>
       </li>
       <li className="list-group-item bg-transparent px-0 d-flex justify-content-between">
-        <span className="fw-bold">UID</span> <span className="text-muted">23BAI70670</span>
+        <span className="fw-bold">UID</span> <span className="text-muted">23BAI70656</span>
       </li>
       <li className="list-group-item bg-transparent px-0 d-flex justify-content-between">
-        <span className="fw-bold">Email</span> <span className="text-muted">baivhavkummar@gmail.com</span>
+        <span className="fw-bold">Email</span> <span className="text-muted">satym0696@gmail.com</span>
       </li>
       <li className="list-group-item bg-transparent px-0 d-flex justify-content-between">
         <span className="fw-bold">Location</span> <span className="text-muted">Chandigarh, INDIA</span>
@@ -91,7 +91,7 @@ function App() {
       <div className="profile-bg">
         <nav className="navbar navbar-expand-lg glass-nav sticky-top py-3">
           <div className="container">
-            <Link className="navbar-brand fw-bold fs-3 text-gradient" to="/">23BAI70670_PROFILE</Link>
+            <Link className="navbar-brand fw-bold fs-3 text-gradient" to="/">23BAI70656_PROFILE</Link>
             <div className="ms-auto d-flex gap-2">
               <NavLink className={({isActive}) => isActive ? "nav-link custom-active" : "nav-link"} to="/">Dashboard</NavLink>
               <NavLink className={({isActive}) => isActive ? "nav-link custom-active" : "nav-link"} to="/skills">Skills</NavLink>
